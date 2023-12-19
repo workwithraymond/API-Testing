@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-const Post = ({id, title, body}) => {
+const Post = ({id, title, body, removePost}) => {
     const [readMore, setReadMore] = useState(false)
   return (
     <article className='single-post'>
